@@ -1,0 +1,551 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  /* background-image: url("./backgroundblack.jpg"); */
+  background: linear-gradient(90deg,#000000 0,#000b11);
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Exo+2:wght@100&family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap');
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px  #000000 inset !important;
+  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: whitesmoke !important;
+}
+
+@keyframes animacao{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+
+
+}
+header {
+  text-align: center;
+  background: linear-gradient(90deg,#000000 0,#002e47);
+  
+  color: white;
+  /* padding: .7em 1.5em 0; */
+  height: fit-content;
+  display: flex;
+}
+#home {
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  animation: animacao 1s ;
+  width: 100%;
+  height: 800px;
+  
+  border-radius: 10px;
+}
+.boxhome{
+  
+  text-align:center;
+  margin-top: 20px;
+  font-size: 60px;
+  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  width: 100%;
+  height: 300px;
+  display: table;
+  
+}
+.vertical{
+  vertical-align: middle;
+  color: #EDB852;
+}
+.subtitlehome{
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  color: #EDB852;
+}
+.lolhome{
+  margin: auto;
+  max-width: 600px;
+  width: 100%;
+  animation: animacao 2s;
+}
+.logo{
+  max-width: 250px;
+  width: 100%;
+  margin: auto;
+  
+}
+.yasuo{
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  width: 200px;
+  height: 280px;
+  animation: animacao 2s ;
+}
+.loading{
+  margin: 0 auto;
+}
+.load{
+  margin-top: 250px;
+}
+
+Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(90deg,#000000 0,#002e47);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+}
+#iconlol{
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  margin: auto;
+  
+}
+#iconlol:hover{
+  cursor: pointer;
+}
+
+#nomepgn{
+  margin: auto;
+  padding: 10px;
+  font-size: 40px;
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  color: whitesmoke;
+}
+h3{
+  margin-bottom: 20px;
+}
+#menu {
+  padding: 5px;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  }
+
+#menu ul{
+    max-width: 1900px;
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+     
+}
+#menu ul li {
+  position: relative;
+  display : inline; 
+  text-align: center;
+
+}
+#menu ul li ul{
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: rgb(37, 37, 39);
+  display: none;
+}
+
+
+#menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    height: 100%;
+    transition: background .4s;
+}
+#menu ul li a:hover   {
+  /* background-color: #0484AE; */
+  /* -moz-box-shadow:0 3px 10px 0 rgb(44, 44, 44);
+  -webkit-box-shadow:0 3px 10px 0 rgb(44, 44, 44); */
+  text-shadow:0px 0px 10px #fff;
+  border-bottom:solid #EDB852 ;
+}
+#menu ul li:hover ul, #menu ul li.over ul{
+  display: block;
+}
+#menu ul li ul li{
+  display:block;
+  width: 150px;
+  background-color: rgb(37, 37, 39);
+}
+#btNchamp {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border : 4px solid #00455c;
+  background: transparent;
+  color: whitesmoke;
+}
+
+#btNclass {
+  width: 100px;
+  height: 50px;
+  background: transparent;
+  border-radius: 2px;
+  color: whitesmoke;
+  border : 4px solid #00455c;
+}
+
+#btNitems {
+  width: 100px;
+  height: 50px;
+  border : 4px solid #00455c;
+  background: transparent;
+  color: whitesmoke;
+  border-radius: 2px;
+}
+.inputs {
+  width: 200px;
+  height: 40px;
+  border: 4px solid #00455c;
+  background: transparent;
+  font-size: 20px;
+  border-radius: 5px;
+  color: whitesmoke;
+ 
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+}
+.inputs::placeholder{
+  font-size: 20px;
+  margin-left: 10px;
+  color: whitesmoke;
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+}
+
+#title{
+  color: whitesmoke;
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+}
+footer {
+  color: whitesmoke;
+}
+
+#ContChamp {
+  margin: 0 auto;
+  width: 1600px;
+  height: 780px;
+  /* background-color: rgb(130, 135, 136); */
+  overflow: auto;
+}
+
+#imgs {
+  width: 200px;
+  height: 210px;
+  border-radius: 10px;
+}
+#caixas #imgs{
+  width: 200px;
+  height: 210px;
+   -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+#caixas:hover #imgs{
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#caixas #imgsitem{
+  width: 200px;
+  height: 210px;
+   -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+#caixas:hover #imgsitem{
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+.champname{
+  margin-top: 15px;
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  color: whitesmoke;
+  font-size: 22px;
+}
+#champimage {
+  margin-top: 30px;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+}
+#itemsup{
+  
+  
+  margin-left: 0px;
+  width: 600px;
+  height: 350px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  overflow: auto;
+ 
+  
+}
+.txtsup{
+  text-decoration: underline #EDB852;
+  color: whitesmoke;
+  font-size: 35px;
+  width: 600px;
+  height: 50px;
+  text-align: center;
+
+  margin-top: 30px;
+}
+
+.itemsb{
+  
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px 15px 15px;
+}
+.conteudo2{
+  
+  width: 600px;
+  height: 300px;
+  margin-top: 400px;
+  margin-left: -600px;
+  text-align: center;
+}
+.cont1{
+
+  width: 600px;
+  height: 400px;
+  
+}
+#prices {
+  width : 600px;
+  height: 270px;
+  margin-left: 0px;
+
+  overflow: auto;
+}
+#itemimage {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#skillimg {
+
+  margin-top: 30px;
+  padding-left: 25px;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  
+}
+#titlechamp {    
+  color: whitesmoke;
+  text-decoration: underline #EDB852;
+  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  display: block;
+  margin-left: 200px;
+  width: 200px;
+  
+}
+#subtitle {    
+  color: whitesmoke;
+  text-decoration: underline #EDB852;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-size: 40px;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  width: 400px;
+
+  
+}
+
+#imgsitem {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#caixas {
+  margin: 10px 15px 15px;
+  width: 200px;
+  height: 259px;
+  background-color: rgb(37, 37, 39);
+  border-radius: 5px;
+  color: whitesmoke;
+  display: inline-block;
+  
+  transition: background .4s;
+  overflow: hidden;
+  cursor: pointer;
+  animation: animacao 2s ;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+}
+#caixas:hover {
+  background-color: #00455c;
+  /* -moz-box-shadow:0 3px 10px 0 rgb(44, 44, 44);
+  -webkit-box-shadow:0 3px 10px 0 rgb(44, 44, 44); */
+  text-shadow:0px 0px 1px #fff;
+}
+#boxMenu{
+  display: flex;
+  width: 320px;
+  height: 50px;
+  margin: 10px auto;
+}
+#box {
+  
+  margin: 30px;
+  max-width: 1400px;
+  width: 100%;
+  background-color: rgb(37, 37, 39);
+  border-radius: 10px;
+  color: whitesmoke;
+  display: inline-flex;
+  background: no-repeat center;
+  background-size: cover; 
+  box-shadow: inset 0 0 1em #003e5f;
+  transition: background .4s;
+  overflow: auto;
+  animation: animacao 1s;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+}
+#boxitem {
+  margin-top: 50px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: rgb(37, 37, 39);
+  border-radius: 10px;
+  color: whitesmoke;
+  display: inline-flex;
+  background: no-repeat center;
+  background-size: cover; 
+  box-shadow: inset 0 0 1em #003e5f;
+  transition: background .4s;
+  overflow: auto;
+  animation: animacao 2s;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+}
+
+.icons{
+  width: 40px;
+  height: 40px;
+}
+.txtitem{
+  display: inline-block;
+    padding: 20px;
+  font-size: 30px;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+}
+.txtexp{
+  margin-top: 130px;
+  font-size: 30px;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+}
+
+.cont2{
+  width: 800px;
+  height: 700px;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+.headerchamp {
+  width: 800px;
+  height: 120px;
+  
+  margin-top: 40px;
+  
+  
+}
+#champclass {
+  margin-top: 60px;
+  color: whitesmoke;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-size: 20px;
+  display: block;
+  width: 800px;
+}
+#champdesc {
+  font-size: 30px;
+  margin: 30px;
+  padding: 30px;
+  text-align:left;
+}
+#tip{
+  text-decoration: underline #EDB852;
+  color: whitesmoke;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-size: 35px;
+ 
+}
+#resclass{
+  color: whitesmoke;
+  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-size: 30px;
+ 
+ 
+}
+#skills{
+  
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  font-size: 40px;
+}
+#specs{
+  width: 400px;
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
