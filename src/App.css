@@ -7,36 +7,36 @@
 }
 body {
   /* background-image: url("./backgroundblack.jpg"); */
-  background: linear-gradient(90deg,#000000 0,#000b11);
+  background: linear-gradient(90deg, #000000 0, #000b11);
 }
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Exo+2:wght@100&family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Exo+2:wght@100&family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap");
 
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 1000px  #000000 inset !important;
-  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  -webkit-box-shadow: 0 0 0 1000px #000000 inset !important;
+  font-family: "Asap", sans-serif;
+  ly: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
   color: whitesmoke;
   font-size: 20px;
 }
-input:-webkit-autofill{
+input:-webkit-autofill {
   -webkit-text-fill-color: whitesmoke !important;
 }
 
-@keyframes animacao{
-  from{
+@keyframes animacao {
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
-
-
 }
 header {
   text-align: center;
-  background: linear-gradient(90deg,#000000 0,#002e47);
-  
+  background: linear-gradient(90deg, #000000 0, #002e47);
+
   color: white;
   /* padding: .7em 1.5em 0; */
   height: fit-content;
@@ -45,59 +45,62 @@ header {
 #home {
   text-align: center;
   color: whitesmoke;
-  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
-  animation: animacao 1s ;
+  font-family: "Asap", sans-serif;
+  ly: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
+  animation: animacao 1s;
   width: 100%;
   height: 800px;
-  
+
   border-radius: 10px;
 }
-.boxhome{
-  
-  text-align:center;
+.boxhome {
+  text-align: center;
   margin-top: 20px;
   font-size: 60px;
-  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
   width: 100%;
   height: 300px;
   display: table;
-  
 }
-.vertical{
+.vertical {
   vertical-align: middle;
-  color: #EDB852;
+  color: #edb852;
 }
-.subtitlehome{
+.subtitlehome {
   margin: auto;
   margin-bottom: 15px;
   font-size: 30px;
-  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
-  color: #EDB852;
+  font-family: "Asap", sans-serif;
+  ly: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
+  color: #edb852;
 }
-.lolhome{
+.lolhome {
   margin: auto;
   max-width: 600px;
   width: 100%;
   animation: animacao 2s;
 }
-.logo{
+.logo {
   max-width: 250px;
   width: 100%;
   margin: auto;
-  
 }
-.yasuo{
+.yasuo {
   position: relative;
   margin-bottom: 30px;
   margin-left: 80px;
   width: 200px;
   height: 280px;
-  animation: animacao 2s ;
+  animation: animacao 2s;
 }
-.loading{
+.loading {
   margin: 0 auto;
 }
-.load{
+.load {
   margin-top: 250px;
 }
 
@@ -106,55 +109,56 @@ Footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(90deg,#000000 0,#002e47);
+  background: linear-gradient(90deg, #000000 0, #002e47);
   color: white;
   text-align: center;
   margin-top: 20px;
-  font-family: 'Asap', sans-serif;ly: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
 }
-#iconlol{
+#iconlol {
   width: 70px;
   height: 70px;
   padding: 20px;
   margin: auto;
-  
 }
-#iconlol:hover{
+#iconlol:hover {
   cursor: pointer;
 }
 
-#nomepgn{
+#nomepgn {
   margin: auto;
   padding: 10px;
   font-size: 40px;
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
   color: whitesmoke;
 }
-h3{
+h3 {
   margin-bottom: 20px;
 }
 #menu {
   padding: 5px;
   margin: auto;
   font-size: 20px;
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
-  }
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
+}
 
-#menu ul{
-    max-width: 1900px;
-    list-style: none;
-    padding: 0;
-    height: 100%;
-    margin: 0;
-     
+#menu ul {
+  max-width: 1900px;
+  list-style: none;
+  padding: 0;
+  height: 100%;
+  margin: 0;
 }
 #menu ul li {
   position: relative;
-  display : inline; 
+  display: inline;
   text-align: center;
-
 }
-#menu ul li ul{
+#menu ul li ul {
   position: absolute;
   top: 25px;
   left: 0;
@@ -162,27 +166,27 @@ h3{
   display: none;
 }
 
-
 #menu ul li a {
-    color: #FFF;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    height: 100%;
-    transition: background .4s;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  transition: background 0.4s;
 }
-#menu ul li a:hover   {
+#menu ul li a:hover {
   /* background-color: #0484AE; */
   /* -moz-box-shadow:0 3px 10px 0 rgb(44, 44, 44);
   -webkit-box-shadow:0 3px 10px 0 rgb(44, 44, 44); */
-  text-shadow:0px 0px 10px #fff;
-  border-bottom:solid #EDB852 ;
+  text-shadow: 0px 0px 10px #fff;
+  border-bottom: solid #edb852;
 }
-#menu ul li:hover ul, #menu ul li.over ul{
+#menu ul li:hover ul,
+#menu ul li.over ul {
   display: block;
 }
-#menu ul li ul li{
-  display:block;
+#menu ul li ul li {
+  display: block;
   width: 150px;
   background-color: rgb(37, 37, 39);
 }
@@ -190,27 +194,39 @@ h3{
   width: 100px;
   height: 50px;
   border-radius: 5px;
-  border : 4px solid #00455c;
-  background: transparent;
+  border: 4px solid  rgb(0, 69, 92 );
+  background-color: rgb(0, 69, 92);
   color: whitesmoke;
+}
+#btNchamp:hover{
+  background-color: rgb(0, 69, 92, 0.4);
+  cursor: pointer;
 }
 
 #btNclass {
   width: 100px;
   height: 50px;
-  background: transparent;
+  background-color: #00455c;
   border-radius: 2px;
   color: whitesmoke;
-  border : 4px solid #00455c;
+  border: 4px solid #00455c;
+}
+#btNclass:hover{
+  background-color: rgb(0, 69, 92, 0.4);
+  cursor: pointer;
 }
 
 #btNitems {
   width: 100px;
   height: 50px;
-  border : 4px solid #00455c;
-  background: transparent;
+  border: 4px solid #00455c;
+  background-color: #00455c;
   color: whitesmoke;
   border-radius: 2px;
+}
+#btNitems:hover{
+  background-color: rgb(0, 69, 92, 0.4);
+  cursor: pointer;
 }
 .inputs {
   width: 200px;
@@ -220,22 +236,25 @@ h3{
   font-size: 20px;
   border-radius: 5px;
   color: whitesmoke;
- 
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
 }
-.inputs::placeholder{
+.inputs::placeholder {
   font-size: 20px;
   margin-left: 10px;
   color: whitesmoke;
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
 }
 
-#title{
+#title {
   color: whitesmoke;
   font-size: 30px;
   margin-bottom: 20px;
   border-radius: 2px;
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
 }
 footer {
   color: whitesmoke;
@@ -254,30 +273,33 @@ footer {
   height: 210px;
   border-radius: 10px;
 }
-#caixas #imgs{
+
+#caixas #imgs {
   width: 200px;
   height: 210px;
-   -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-}
-#caixas:hover #imgs{
-  -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
-#caixas #imgsitem{
+#caixas:hover #imgs {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#caixas #imgsitem {
   width: 200px;
   height: 210px;
-   -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
-#caixas:hover #imgsitem{
+#caixas:hover #imgsitem {
   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
-.champname{
+.champname {
   margin-top: 15px;
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
   color: whitesmoke;
   font-size: 22px;
 }
@@ -287,21 +309,17 @@ footer {
   height: 500px;
   border-radius: 10px;
 }
-#itemsup{
-  
-  
+#itemsup {
   margin-left: 0px;
   width: 600px;
   height: 350px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
   overflow: auto;
- 
-  
 }
-.txtsup{
-  text-decoration: underline #EDB852;
+.txtsup {
+  text-decoration: underline #edb852;
   color: whitesmoke;
   font-size: 35px;
   width: 600px;
@@ -311,8 +329,7 @@ footer {
   margin-top: 30px;
 }
 
-.itemsb{
-  
+.itemsb {
   width: 70px;
   height: 70px;
   border-radius: 10px;
@@ -320,22 +337,19 @@ footer {
   display: inline-block;
   margin: 10px 15px 15px;
 }
-.conteudo2{
-  
+.conteudo2 {
   width: 600px;
   height: 300px;
   margin-top: 400px;
   margin-left: -600px;
   text-align: center;
 }
-.cont1{
-
+.cont1 {
   width: 600px;
   height: 400px;
-  
 }
 #prices {
-  width : 600px;
+  width: 600px;
   height: 270px;
   margin-left: 0px;
 
@@ -348,35 +362,32 @@ footer {
   border-radius: 10px;
 }
 #skillimg {
-
   margin-top: 30px;
   padding-left: 25px;
   width: 70px;
   height: 70px;
   border-radius: 10px;
-  
 }
-#titlechamp {    
+#titlechamp {
   color: whitesmoke;
-  text-decoration: underline #EDB852;
-  font-family: 'Asap', sans-serif;ly: 'Fjalla One', sans-serif;
+  text-decoration: underline #edb852;
+  font-family: "Asap", sans-serif;
+  ly: "Fjalla One", sans-serif;
   font-size: 40px;
   display: block;
   margin-left: 200px;
   width: 200px;
-  
 }
-#subtitle {    
+#subtitle {
   color: whitesmoke;
-  text-decoration: underline #EDB852;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  text-decoration: underline #edb852;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
   font-size: 40px;
   display: inline;
   float: left;
   margin-left: 20px;
   width: 400px;
-
-  
 }
 
 #imgsitem {
@@ -393,27 +404,27 @@ footer {
   border-radius: 5px;
   color: whitesmoke;
   display: inline-block;
-  
-  transition: background .4s;
+
+  transition: background 0.4s;
   overflow: hidden;
   cursor: pointer;
-  animation: animacao 2s ;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  animation: animacao 2s;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
 }
 #caixas:hover {
   background-color: #00455c;
   /* -moz-box-shadow:0 3px 10px 0 rgb(44, 44, 44);
   -webkit-box-shadow:0 3px 10px 0 rgb(44, 44, 44); */
-  text-shadow:0px 0px 1px #fff;
+  text-shadow: 0px 0px 1px #fff;
 }
-#boxMenu{
+#boxMenu {
   display: flex;
   width: 320px;
   height: 50px;
   margin: 10px auto;
 }
 #box {
-  
   margin: 30px;
   max-width: 1400px;
   width: 100%;
@@ -422,12 +433,13 @@ footer {
   color: whitesmoke;
   display: inline-flex;
   background: no-repeat center;
-  background-size: cover; 
+  background-size: cover;
   box-shadow: inset 0 0 1em #003e5f;
-  transition: background .4s;
+  transition: background 0.4s;
   overflow: auto;
   animation: animacao 1s;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
 }
 #boxitem {
   margin-top: 50px;
@@ -438,31 +450,34 @@ footer {
   color: whitesmoke;
   display: inline-flex;
   background: no-repeat center;
-  background-size: cover; 
+  background-size: cover;
   box-shadow: inset 0 0 1em #003e5f;
-  transition: background .4s;
+  transition: background 0.4s;
   overflow: auto;
   animation: animacao 2s;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
 }
 
-.icons{
+.icons {
   width: 40px;
   height: 40px;
 }
-.txtitem{
+.txtitem {
   display: inline-block;
-    padding: 20px;
+  padding: 20px;
   font-size: 30px;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
 }
-.txtexp{
+.txtexp {
   margin-top: 130px;
   font-size: 30px;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
 }
 
-.cont2{
+.cont2 {
   width: 800px;
   height: 700px;
   float: right;
@@ -472,15 +487,14 @@ footer {
 .headerchamp {
   width: 800px;
   height: 120px;
-  
+
   margin-top: 40px;
-  
-  
 }
 #champclass {
   margin-top: 60px;
   color: whitesmoke;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
   font-size: 20px;
   display: block;
   width: 800px;
@@ -489,24 +503,22 @@ footer {
   font-size: 30px;
   margin: 30px;
   padding: 30px;
-  text-align:left;
+  text-align: left;
 }
-#tip{
-  text-decoration: underline #EDB852;
+#tip {
+  text-decoration: underline #edb852;
   color: whitesmoke;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
   font-size: 35px;
- 
 }
-#resclass{
+#resclass {
   color: whitesmoke;
-  font-family: 'Asap', sans-serif;ly: 'Exo 2', sans-serif;
+  font-family: "Asap", sans-serif;
+  ly: "Exo 2", sans-serif;
   font-size: 30px;
- 
- 
 }
-#skills{
-  
+#skills {
   margin-top: 30px;
   padding-top: 10px;
   text-align: center;
@@ -514,7 +526,7 @@ footer {
   height: 60px;
   font-size: 40px;
 }
-#specs{
+#specs {
   width: 400px;
   height: 400px;
   background-color: whitesmoke;

@@ -9,7 +9,7 @@ const Nchamp = () =>{
         let camp = document.getElementById("nchamp").value
         setExecucao(camp)
         console.log(camp)
-
+     
     }
 
     useEffect(()=>{
@@ -25,7 +25,6 @@ const Nchamp = () =>{
             Buscar 
             </button>
                 
-            
 
         </div>
         <div class = "resposta">

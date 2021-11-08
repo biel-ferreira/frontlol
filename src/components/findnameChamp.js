@@ -21,7 +21,7 @@ const ListarNchampions = (props) => {
           console.log(result)
           setChampions(result);
           setIsLoaded(true);
-          
+
         },
         
       ).catch((error) => {
@@ -39,10 +39,8 @@ const ListarNchampions = (props) => {
     console.log(champions)
     return (
         <div>
-     
          { champions && <li id="box"  style={{backgroundImage: (`URL(splash/${champions.id}_0.jpg)`)}}>
               <div class = "cont1" >
-              
             <h3 id="titlechamp">{champions.name}</h3>
             <img
               src={`loading/${champions.id}_0.jpg`}
@@ -99,7 +97,6 @@ const ListarNchampions = (props) => {
 
             </div>
 
-        
           </li>
           }
         )
@@ -108,8 +105,6 @@ const ListarNchampions = (props) => {
 
     );
   }
-
-   
 
 };
 

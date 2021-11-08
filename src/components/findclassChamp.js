@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactLoading from 'react-loading';
-const ListarNclass = () => {
+const ListarNclass = (props) => {
   const [champions, setChampions] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState();
@@ -30,7 +30,7 @@ const ListarNclass = () => {
     return (
       <p>
         {champions.map((item) => (
-          <li id="caixas" key={item.id}>
+          <li id="caixas" key={item.id} onClick={()=> (props.trocaExec(item.name))}>
              <img
               src={`assets/${item.id}_0.jpg`}
               alt={item.name}
@@ -38,8 +38,6 @@ const ListarNclass = () => {
             ></img>
             <div className = "champname">{item.name}</div>
             
-           
-           
             <br></br>
           
           </li>
