@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ReactLoading from 'react-loading';
+import ReactLoading from "react-loading";
 const ListarNclass = (props) => {
   const [champions, setChampions] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -21,25 +21,40 @@ const ListarNclass = (props) => {
         }
       );
   }, [nomeX]);
-  console.log(champions)
+  console.log(champions);
   if (error) {
     return <div>Error : {error.message}</div>;
   } else if (!isLoaded) {
-    return <div className="load">{<ReactLoading className= "loading" color={'#EDB852'}type={'spinningBubbles'} height={350} width={250}/>}</div>;
+    return (
+      <div className="load">
+        {
+          <ReactLoading
+            className="loading"
+            color={"#EDB852"}
+            type={"spinningBubbles"}
+            height={350}
+            width={250}
+          />
+        }
+      </div>
+    );
   } else {
     return (
       <p>
         {champions.map((item) => (
-          <li id="caixas" key={item.id} onClick={()=> (props.trocaExec(item.name))}>
-             <img
+          <li
+            id="caixas"
+            key={item.id}
+            onClick={() => props.trocaExec(item.name)}
+          >
+            <img
               src={`assets/${item.id}_0.jpg`}
               alt={item.name}
               id="imgs"
             ></img>
-            <div className = "champname">{item.name}</div>
-            
+            <div className="champname">{item.name}</div>
+
             <br></br>
-          
           </li>
         ))}
       </p>
